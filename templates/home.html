@@ -8,5 +8,15 @@
         </form>
 
         {{results}}
+
+        <br>
+
+        {% if hasHuman %}
+
+        	<h3>Image has a human!</h3>
+
+        {% endif %}
+
+        <a href="https://en.wikipedia.org/wiki/{{main}}">Wiki to {{main}}</a>
     </body>
 </html>
